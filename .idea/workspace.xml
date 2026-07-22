@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="refactor: Creacion de los views mediante APIView">
+      <change afterPath="$PROJECT_DIR$/categories/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/api/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/api/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="29" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;CLOSED&quot;,
+      &quot;assignee&quot;: &quot;leandro291&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;CLOSED&quot;,
+    &quot;assignee&quot;: &quot;leandro291&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/leandro291/blog-django&quot;,
+    &quot;accountId&quot;: &quot;6f398b86-0e19-4ebf-bef5-26daf9e51266&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000204003" />
+      <entry key="S5" value="1.0001194156368785" />
+      <entry key="S10" value="1.0299630264319268" />
+      <entry key="S30" value="2.4675983828746175" />
+      <entry key="S60" value="5.145957897591464" />
+      <entry key="M2" value="8.825454808851322" />
+      <entry key="M5" value="18.40579566232412" />
+      <entry key="M10" value="42.975328388243135" />
+      <entry key="M15" value="71.43557077168205" />
+      <entry key="M30" value="140.67060589570158" />
+      <entry key="H1" value="239.08015992096847" />
+      <entry key="H2" value="379.19649035914796" />
+      <entry key="H4" value="524.3350399315765" />
+      <entry key="D1" value="727.0180109181327" />
+      <entry key="W1" value="772.9524212696024" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="6.368462640858218E-265" />
+      <entry key="MS500" value="1.4504432012030257E-53" />
+      <entry key="S2" value="8.272017493578849E-14" />
+      <entry key="S5" value="1.2582796159949975E-5" />
+      <entry key="S10" value="0.008254831736872446" />
+      <entry key="S30" value="0.7102870089308753" />
+      <entry key="S60" value="2.301629428751681" />
+      <entry key="M2" value="4.565346470433286" />
+      <entry key="M5" value="9.226279037394947" />
+      <entry key="M10" value="16.96217111632343" />
+      <entry key="M15" value="24.70746923672082" />
+      <entry key="M30" value="42.68805678405257" />
+      <entry key="H1" value="64.71231560856688" />
+      <entry key="H2" value="90.75135271797485" />
+      <entry key="H4" value="115.41499573118165" />
+      <entry key="D1" value="148.38089845357683" />
+      <entry key="W1" value="155.71825860486842" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9848664428955506" />
+      <entry key="S2" value="0.9961949481519917" />
+      <entry key="S5" value="0.9985983168537873" />
+      <entry key="S10" value="1.035856016963968" />
+      <entry key="S30" value="3.146049514999985" />
+      <entry key="S60" value="7.398800544250776" />
+      <entry key="M2" value="13.342211037923072" />
+      <entry key="M5" value="27.590552367077652" />
+      <entry key="M10" value="59.89451125266208" />
+      <entry key="M15" value="96.09807505870108" />
+      <entry key="M30" value="183.31654404596497" />
+      <entry key="H1" value="303.7588724491951" />
+      <entry key="H2" value="469.9232148511694" />
+      <entry key="H4" value="639.733896013788" />
+      <entry key="D1" value="875.3953518739439" />
+      <entry key="W1" value="928.6701438534195" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GkQ6YiyCYFySNcF2603SZYyOGh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\PYTHON\Boot-Python\django\blog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="" />
+      <created>1784512912539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784512912539</updated>
+      <workItem from="1784512913579" duration="1283000" />
+      <workItem from="1784514246351" duration="9510000" />
+      <workItem from="1784640386912" duration="2643000" />
+      <workItem from="1784690454966" duration="1236000" />
+      <workItem from="1784727735869" duration="638000" />
+      <workItem from="1784729690564" duration="3133000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Inicializacion del proyecto blog">
+      <option name="closed" value="true" />
+      <created>1784513438412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784513438412</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Inicializacion del apartado de users">
+      <option name="closed" value="true" />
+      <created>1784513460364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784513460364</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Agregacion de .gitignore">
+      <option name="closed" value="true" />
+      <created>1784514462526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784514462526</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Creacion del modelo inicial del User">
+      <option name="closed" value="true" />
+      <created>1784515047362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515047362</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Cambiar el field del usuario para email">
+      <option name="closed" value="true" />
+      <created>1784515069607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515069607</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Cargando el .env para la base de datos postgres y activando el Auth user model">
+      <option name="closed" value="true" />
+      <created>1784515107284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515107284</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Instalacion de la mejora del UI con Django Jazzmin">
+      <option name="closed" value="true" />
+      <created>1784515263406</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515263406</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Agregacion de 'rest_framwerok' para generar las APIS y 'drf_spectacular' para   la generacion de documentacion Swagger">
+      <option name="closed" value="true" />
+      <created>1784515811498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515811498</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Creacion de las rutas para la documentacion de las APIS">
+      <option name="closed" value="true" />
+      <created>1784515830977</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784515830977</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: Eliminacion de vista para que este dentro de la carpeta de API">
+      <option name="closed" value="true" />
+      <created>1784518824016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784518824016</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: Agregacion de rutas de la parte del user">
+      <option name="closed" value="true" />
+      <created>1784518969434</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784518969434</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Creacion del paquete de API/users">
+      <option name="closed" value="true" />
+      <created>1784518987514</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784518987514</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Creacion del enrutador del Usuario">
+      <option name="closed" value="true" />
+      <created>1784519017476</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1784519017476</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Creacion del serializador más hasheo de contraseñas incluido">
+      <option name="closed" value="true" />
+      <created>1784519043766</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1784519043766</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Creacion del enrutador para los metodos del user">
+      <option name="closed" value="true" />
+      <created>1784730276584</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1784730276584</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: Creacion del Serializador para obtener y modificar datos del usuario">
+      <option name="closed" value="true" />
+      <created>1784730306902</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784730306902</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Agregacion del JWT tokens">
+      <option name="closed" value="true" />
+      <created>1784730328557</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1784730328557</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: Creacion de los views mediante APIView">
+      <option name="closed" value="true" />
+      <created>1784730360117</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1784730360117</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Inicializacion del proyecto blog" />
+    <MESSAGE value="feat: Inicializacion del apartado de users" />
+    <MESSAGE value="feat: Agregacion de .gitignore" />
+    <MESSAGE value="feat: Creacion del modelo inicial del User" />
+    <MESSAGE value="feat: Cambiar el field del usuario para email" />
+    <MESSAGE value="feat: Cargando el .env para la base de datos postgres y activando el Auth user model" />
+    <MESSAGE value="feat: Instalacion de la mejora del UI con Django Jazzmin" />
+    <MESSAGE value="feat: Agregacion de 'rest_framwerok' para generar las APIS y 'drf_spectacular' para   la generacion de documentacion Swagger" />
+    <MESSAGE value="feat: Creacion de las rutas para la documentacion de las APIS" />
+    <MESSAGE value="feat: Eliminacion de vista para que este dentro de la carpeta de API" />
+    <MESSAGE value="feat: Agregacion de rutas de la parte del user" />
+    <MESSAGE value="feat: Creacion del paquete de API/users" />
+    <MESSAGE value="feat: Creacion del enrutador del Usuario" />
+    <MESSAGE value="feat: Creacion del serializador más hasheo de contraseñas incluido" />
+    <MESSAGE value="feat: Creacion del enrutador para los metodos del user" />
+    <MESSAGE value="feat: Creacion del Serializador para obtener y modificar datos del usuario" />
+    <MESSAGE value="feat: Agregacion del JWT tokens" />
+    <MESSAGE value="refactor: Creacion de los views mediante APIView" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Creacion de los views mediante APIView" />
+  </component>
+</project>
