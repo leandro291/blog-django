@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="refactor: Creacion de los views mediante APIView">
-      <change afterPath="$PROJECT_DIR$/categories/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/categories/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/categories/api/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/categories/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/categories/api/views.py" afterDir="false" />
+    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="feat: Agregacion de la app categorias y django_filters">
+      <change afterPath="$PROJECT_DIR$/posts/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/api/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/api/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/api/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,59 +63,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000204003" />
-      <entry key="S5" value="1.0001194156368785" />
-      <entry key="S10" value="1.0299630264319268" />
-      <entry key="S30" value="2.4675983828746175" />
-      <entry key="S60" value="5.145957897591464" />
-      <entry key="M2" value="8.825454808851322" />
-      <entry key="M5" value="18.40579566232412" />
-      <entry key="M10" value="42.975328388243135" />
-      <entry key="M15" value="71.43557077168205" />
-      <entry key="M30" value="140.67060589570158" />
-      <entry key="H1" value="239.08015992096847" />
-      <entry key="H2" value="379.19649035914796" />
-      <entry key="H4" value="524.3350399315765" />
-      <entry key="D1" value="727.0180109181327" />
-      <entry key="W1" value="772.9524212696024" />
+      <entry key="S2" value="1.0000000858265947" />
+      <entry key="S5" value="1.0014909008173485" />
+      <entry key="S10" value="1.0386132995215134" />
+      <entry key="S30" value="1.3652427451638178" />
+      <entry key="S60" value="2.114986011103565" />
+      <entry key="M2" value="5.394306856741322" />
+      <entry key="M5" value="20.748836802584247" />
+      <entry key="M10" value="52.36147032607262" />
+      <entry key="M15" value="88.53474424028856" />
+      <entry key="M30" value="192.2457160320614" />
+      <entry key="H1" value="344.9397459277402" />
+      <entry key="H2" value="539.9907065580213" />
+      <entry key="H4" value="738.3335401630507" />
+      <entry key="D1" value="1023.8216567748037" />
+      <entry key="W1" value="1090.2867607793899" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.368462640858218E-265" />
-      <entry key="MS500" value="1.4504432012030257E-53" />
-      <entry key="S2" value="8.272017493578849E-14" />
-      <entry key="S5" value="1.2582796159949975E-5" />
-      <entry key="S10" value="0.008254831736872446" />
-      <entry key="S30" value="0.7102870089308753" />
-      <entry key="S60" value="2.301629428751681" />
-      <entry key="M2" value="4.565346470433286" />
-      <entry key="M5" value="9.226279037394947" />
-      <entry key="M10" value="16.96217111632343" />
-      <entry key="M15" value="24.70746923672082" />
-      <entry key="M30" value="42.68805678405257" />
-      <entry key="H1" value="64.71231560856688" />
-      <entry key="H2" value="90.75135271797485" />
-      <entry key="H4" value="115.41499573118165" />
-      <entry key="D1" value="148.38089845357683" />
-      <entry key="W1" value="155.71825860486842" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="9.070064269641176E-128" />
+      <entry key="S2" value="2.746212535735153E-32" />
+      <entry key="S5" value="4.3817893635435106E-13" />
+      <entry key="S10" value="1.1395208980246307E-6" />
+      <entry key="S30" value="0.024463698852197766" />
+      <entry key="S60" value="0.3733043682097962" />
+      <entry key="M2" value="1.8707503777572654" />
+      <entry key="M5" value="7.5811072667276" />
+      <entry key="M10" value="16.17025483771579" />
+      <entry key="M15" value="23.532160386268636" />
+      <entry key="M30" value="42.97309606755153" />
+      <entry key="H1" value="72.2236668356504" />
+      <entry key="H2" value="108.25411852420694" />
+      <entry key="H4" value="143.00905038273137" />
+      <entry key="D1" value="191.09015036969026" />
+      <entry key="W1" value="202.07123789327454" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880618903709" />
-      <entry key="MS500" value="0.9848664428955506" />
-      <entry key="S2" value="0.9961949481519917" />
-      <entry key="S5" value="0.9985983168537873" />
-      <entry key="S10" value="1.035856016963968" />
-      <entry key="S30" value="3.146049514999985" />
-      <entry key="S60" value="7.398800544250776" />
-      <entry key="M2" value="13.342211037923072" />
-      <entry key="M5" value="27.590552367077652" />
-      <entry key="M10" value="59.89451125266208" />
-      <entry key="M15" value="96.09807505870108" />
-      <entry key="M30" value="183.31654404596497" />
-      <entry key="H1" value="303.7588724491951" />
-      <entry key="H2" value="469.9232148511694" />
-      <entry key="H4" value="639.733896013788" />
-      <entry key="D1" value="875.3953518739439" />
-      <entry key="W1" value="928.6701438534195" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044933592" />
+      <entry key="S2" value="0.9965403482390379" />
+      <entry key="S5" value="1.0001026761664837" />
+      <entry key="S10" value="1.0378839594866511" />
+      <entry key="S30" value="1.3883340922393588" />
+      <entry key="S60" value="2.477955439880738" />
+      <entry key="M2" value="7.234863306552139" />
+      <entry key="M5" value="28.278669973680213" />
+      <entry key="M10" value="68.477136892656" />
+      <entry key="M15" value="112.01372230746654" />
+      <entry key="M30" value="235.17010511638563" />
+      <entry key="H1" value="417.12241708325007" />
+      <entry key="H2" value="648.2137883801032" />
+      <entry key="H4" value="881.3218395342884" />
+      <entry key="D1" value="1214.9071160345104" />
+      <entry key="W1" value="1292.357287872607" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -203,7 +206,7 @@
       <workItem from="1784640386912" duration="2643000" />
       <workItem from="1784690454966" duration="1236000" />
       <workItem from="1784727735869" duration="638000" />
-      <workItem from="1784729690564" duration="3133000" />
+      <workItem from="1784729690564" duration="6190000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Inicializacion del proyecto blog">
       <option name="closed" value="true" />
@@ -349,7 +352,111 @@
       <option name="project" value="LOCAL" />
       <updated>1784730360117</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: Creacion de archivos del IDE">
+      <option name="closed" value="true" />
+      <created>1784732878438</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732878438</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: Actualizacion de migraciones">
+      <option name="closed" value="true" />
+      <created>1784732894754</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732894754</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: Creacion de paquetes">
+      <option name="closed" value="true" />
+      <created>1784732908874</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732908874</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: Creacion del apartado admin para categorias">
+      <option name="closed" value="true" />
+      <created>1784732928176</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732928176</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: Creacion de app para categorias">
+      <option name="closed" value="true" />
+      <created>1784732938791</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732938791</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: Creacion del modelo de categoria">
+      <option name="closed" value="true" />
+      <created>1784732950082</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732950082</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: Creacion de permisos para controlar las categorias">
+      <option name="closed" value="true" />
+      <created>1784732963955</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732963955</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: Creacion de enrutador para la API REST de categorias">
+      <option name="closed" value="true" />
+      <created>1784732982149</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732982149</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: Serializador para la entrada de datos de Categoria">
+      <option name="closed" value="true" />
+      <created>1784732995320</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732995320</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: Agregacion de las rutas de categoria en urls">
+      <option name="closed" value="true" />
+      <created>1784733010479</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1784733010479</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: Creacion del CRUD de categorias mediante ModelViewSet">
+      <option name="closed" value="true" />
+      <created>1784733025609</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1784733025609</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: Paquete del API de categorias">
+      <option name="closed" value="true" />
+      <created>1784733041172</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1784733041172</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: Agregacion de la app categorias y django_filters">
+      <option name="closed" value="true" />
+      <created>1784733065638</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1784733065638</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,12 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Inicializacion del proyecto blog" />
-    <MESSAGE value="feat: Inicializacion del apartado de users" />
-    <MESSAGE value="feat: Agregacion de .gitignore" />
-    <MESSAGE value="feat: Creacion del modelo inicial del User" />
-    <MESSAGE value="feat: Cambiar el field del usuario para email" />
-    <MESSAGE value="feat: Cargando el .env para la base de datos postgres y activando el Auth user model" />
     <MESSAGE value="feat: Instalacion de la mejora del UI con Django Jazzmin" />
     <MESSAGE value="feat: Agregacion de 'rest_framwerok' para generar las APIS y 'drf_spectacular' para   la generacion de documentacion Swagger" />
     <MESSAGE value="feat: Creacion de las rutas para la documentacion de las APIS" />
@@ -385,6 +486,19 @@
     <MESSAGE value="feat: Creacion del Serializador para obtener y modificar datos del usuario" />
     <MESSAGE value="feat: Agregacion del JWT tokens" />
     <MESSAGE value="refactor: Creacion de los views mediante APIView" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Creacion de los views mediante APIView" />
+    <MESSAGE value="feat: Creacion de archivos del IDE" />
+    <MESSAGE value="feat: Actualizacion de migraciones" />
+    <MESSAGE value="feat: Creacion de paquetes" />
+    <MESSAGE value="feat: Creacion del apartado admin para categorias" />
+    <MESSAGE value="feat: Creacion de app para categorias" />
+    <MESSAGE value="feat: Creacion del modelo de categoria" />
+    <MESSAGE value="feat: Creacion de permisos para controlar las categorias" />
+    <MESSAGE value="feat: Creacion de enrutador para la API REST de categorias" />
+    <MESSAGE value="feat: Serializador para la entrada de datos de Categoria" />
+    <MESSAGE value="feat: Agregacion de las rutas de categoria en urls" />
+    <MESSAGE value="feat: Creacion del CRUD de categorias mediante ModelViewSet" />
+    <MESSAGE value="feat: Paquete del API de categorias" />
+    <MESSAGE value="feat: Agregacion de la app categorias y django_filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregacion de la app categorias y django_filters" />
   </component>
 </project>
