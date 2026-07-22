@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # Created
     'users',
     'categories',
+    'posts',
 
     # Installed
     'rest_framework',
