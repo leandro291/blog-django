@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="feat: Agregacion de la app categorias y django_filters">
-      <change afterPath="$PROJECT_DIR$/posts/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/api/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/api/views.py" afterDir="false" />
+    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="refactor: Actualizacion de permisos del codigo">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/api/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/api/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="4bc022a8-1e25-4e55-8a0d-ce1f7d245bc0" value="Blue" />
+    </colors>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -63,59 +72,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000858265947" />
-      <entry key="S5" value="1.0014909008173485" />
-      <entry key="S10" value="1.0386132995215134" />
-      <entry key="S30" value="1.3652427451638178" />
-      <entry key="S60" value="2.114986011103565" />
-      <entry key="M2" value="5.394306856741322" />
-      <entry key="M5" value="20.748836802584247" />
-      <entry key="M10" value="52.36147032607262" />
-      <entry key="M15" value="88.53474424028856" />
-      <entry key="M30" value="192.2457160320614" />
-      <entry key="H1" value="344.9397459277402" />
-      <entry key="H2" value="539.9907065580213" />
-      <entry key="H4" value="738.3335401630507" />
-      <entry key="D1" value="1023.8216567748037" />
-      <entry key="W1" value="1090.2867607793899" />
+      <entry key="S2" value="1.0000218375076653" />
+      <entry key="S5" value="1.0207151034959248" />
+      <entry key="S10" value="1.2035431689638312" />
+      <entry key="S30" value="1.9337667217798071" />
+      <entry key="S60" value="2.3665770966294657" />
+      <entry key="M2" value="2.653225337548677" />
+      <entry key="M5" value="2.8533217186210114" />
+      <entry key="M10" value="2.925292631673972" />
+      <entry key="M15" value="2.9528706025596465" />
+      <entry key="M30" value="3.851618161167743" />
+      <entry key="H1" value="27.703295361277654" />
+      <entry key="H2" value="167.25170965692743" />
+      <entry key="H4" value="474.67534755820566" />
+      <entry key="D1" value="1238.2892028838792" />
+      <entry key="W1" value="1473.2812947532996" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="9.070064269641176E-128" />
-      <entry key="S2" value="2.746212535735153E-32" />
-      <entry key="S5" value="4.3817893635435106E-13" />
-      <entry key="S10" value="1.1395208980246307E-6" />
-      <entry key="S30" value="0.024463698852197766" />
-      <entry key="S60" value="0.3733043682097962" />
-      <entry key="M2" value="1.8707503777572654" />
-      <entry key="M5" value="7.5811072667276" />
-      <entry key="M10" value="16.17025483771579" />
-      <entry key="M15" value="23.532160386268636" />
-      <entry key="M30" value="42.97309606755153" />
-      <entry key="H1" value="72.2236668356504" />
-      <entry key="H2" value="108.25411852420694" />
-      <entry key="H4" value="143.00905038273137" />
-      <entry key="D1" value="191.09015036969026" />
-      <entry key="W1" value="202.07123789327454" />
+      <entry key="MS100" value="1.094045227598844E-88" />
+      <entry key="MS500" value="2.6318112317228617E-18" />
+      <entry key="S2" value="5.650347064578923E-5" />
+      <entry key="S5" value="0.02963107081277833" />
+      <entry key="S10" value="0.24249644226586856" />
+      <entry key="S30" value="0.9890350518388411" />
+      <entry key="S60" value="1.4062860429186024" />
+      <entry key="M2" value="1.677026925900018" />
+      <entry key="M5" value="1.8639367905881694" />
+      <entry key="M10" value="1.930770038579797" />
+      <entry key="M15" value="1.9540330946958453" />
+      <entry key="M30" value="2.140742648886513" />
+      <entry key="H1" value="6.38421865576992" />
+      <entry key="H2" value="30.615706847977812" />
+      <entry key="H4" value="83.45795227188162" />
+      <entry key="D1" value="213.08367591589732" />
+      <entry key="W1" value="252.6518698789326" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044933592" />
-      <entry key="S2" value="0.9965403482390379" />
-      <entry key="S5" value="1.0001026761664837" />
-      <entry key="S10" value="1.0378839594866511" />
-      <entry key="S30" value="1.3883340922393588" />
-      <entry key="S60" value="2.477955439880738" />
-      <entry key="M2" value="7.234863306552139" />
-      <entry key="M5" value="28.278669973680213" />
-      <entry key="M10" value="68.477136892656" />
-      <entry key="M15" value="112.01372230746654" />
-      <entry key="M30" value="235.17010511638563" />
-      <entry key="H1" value="417.12241708325007" />
-      <entry key="H2" value="648.2137883801032" />
-      <entry key="H4" value="881.3218395342884" />
-      <entry key="D1" value="1214.9071160345104" />
-      <entry key="W1" value="1292.357287872607" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9889709163809315" />
+      <entry key="S2" value="0.9972949835211363" />
+      <entry key="S5" value="1.0457216190112182" />
+      <entry key="S10" value="1.430336956741416" />
+      <entry key="S30" value="2.9012700286267448" />
+      <entry key="S60" value="3.757454705698469" />
+      <entry key="M2" value="4.32103152842999" />
+      <entry key="M5" value="4.713149873298812" />
+      <entry key="M10" value="4.853933055719001" />
+      <entry key="M15" value="4.905465648823293" />
+      <entry key="M30" value="5.9914289554564855" />
+      <entry key="H1" value="34.08445944691451" />
+      <entry key="H2" value="197.85859937513112" />
+      <entry key="H4" value="558.1209591738012" />
+      <entry key="D1" value="1451.3675594375327" />
+      <entry key="W1" value="1725.932261727187" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -132,12 +141,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Django Server.blog.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
@@ -152,6 +163,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -160,6 +176,33 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="blog" type="Python.DjangoServer" factoryName="Django server">
       <module name="blog" />
       <option name="ENV_FILES" value="" />
@@ -194,6 +237,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="" />
@@ -206,23 +252,10 @@
       <workItem from="1784640386912" duration="2643000" />
       <workItem from="1784690454966" duration="1236000" />
       <workItem from="1784727735869" duration="638000" />
-      <workItem from="1784729690564" duration="6190000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat: Inicializacion del proyecto blog">
-      <option name="closed" value="true" />
-      <created>1784513438412</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1784513438412</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: Inicializacion del apartado de users">
-      <option name="closed" value="true" />
-      <created>1784513460364</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1784513460364</updated>
+      <workItem from="1784729690564" duration="20427000" />
+      <workItem from="1784766486060" duration="611000" />
+      <workItem from="1784767123085" duration="9296000" />
+      <workItem from="1784786073016" duration="304000" />
     </task>
     <task id="LOCAL-00003" summary="feat: Agregacion de .gitignore">
       <option name="closed" value="true" />
@@ -456,7 +489,167 @@
       <option name="project" value="LOCAL" />
       <updated>1784733065638</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: Creacion de paquetes">
+      <option name="closed" value="true" />
+      <created>1784736096360</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736096360</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: Actualizacion de migraciones">
+      <option name="closed" value="true" />
+      <created>1784736154935</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736154935</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: Creacion de permisos para el post">
+      <option name="closed" value="true" />
+      <created>1784736334379</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736334379</updated>
+    </task>
+    <task id="LOCAL-00035" summary="refactor: Actualizacion de nombre de enrutador">
+      <option name="closed" value="true" />
+      <created>1784736364667</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736364667</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: Creacion de enrutador para posts">
+      <option name="closed" value="true" />
+      <created>1784736376677</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736376677</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: Creacion de serializador para posts">
+      <option name="closed" value="true" />
+      <created>1784736387799</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736387799</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: Instalacion de 'posts' en settings de django">
+      <option name="closed" value="true" />
+      <created>1784736406515</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736406515</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: Agregacion de rutas para el url de django de posts">
+      <option name="closed" value="true" />
+      <created>1784736420066</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736420066</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: Creacion de CRUD de posts con django_filter">
+      <option name="closed" value="true" />
+      <created>1784736437752</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736437752</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: Agregacion de Posts para la vista admin">
+      <option name="closed" value="true" />
+      <created>1784736455917</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736455917</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: Creacion de app para posts">
+      <option name="closed" value="true" />
+      <created>1784736464153</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736464153</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: Imagenes de parte de los posts">
+      <option name="closed" value="true" />
+      <created>1784736474024</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736474024</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: Creacion de modelo Post con llaves foraneas de user y category">
+      <option name="closed" value="true" />
+      <created>1784736490697</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736490697</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: Creacion de archivos de parte de la inicializacion del proyecto">
+      <option name="closed" value="true" />
+      <created>1784736514535</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736514535</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: Actualizacion del IDE">
+      <option name="closed" value="true" />
+      <created>1784736534257</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1784736534257</updated>
+    </task>
+    <task id="LOCAL-00047" summary="refactor: Mejorar la leida de datos en el serializers.py">
+      <option name="closed" value="true" />
+      <created>1784772763046</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1784772763046</updated>
+    </task>
+    <task id="LOCAL-00048" summary="refactor: Cambiar a SAFE METHOD para mejorar la entrada de la cabecera">
+      <option name="closed" value="true" />
+      <created>1784772803296</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1784772803296</updated>
+    </task>
+    <task id="LOCAL-00049" summary="refactor: Mejorar la serializacion de leida y entrada, querset para vista de admin y user">
+      <option name="closed" value="true" />
+      <created>1784773011830</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1784773011830</updated>
+    </task>
+    <task id="LOCAL-00050" summary="refactor: Actualizacion de modelos para mejor estabilidad del codigo">
+      <option name="closed" value="true" />
+      <created>1784786327049</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786327049</updated>
+    </task>
+    <task id="LOCAL-00051" summary="refactor: Actualizacion de permisos del codigo">
+      <option name="closed" value="true" />
+      <created>1784786353955</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786353955</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,31 +667,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Instalacion de la mejora del UI con Django Jazzmin" />
-    <MESSAGE value="feat: Agregacion de 'rest_framwerok' para generar las APIS y 'drf_spectacular' para   la generacion de documentacion Swagger" />
-    <MESSAGE value="feat: Creacion de las rutas para la documentacion de las APIS" />
-    <MESSAGE value="feat: Eliminacion de vista para que este dentro de la carpeta de API" />
-    <MESSAGE value="feat: Agregacion de rutas de la parte del user" />
-    <MESSAGE value="feat: Creacion del paquete de API/users" />
-    <MESSAGE value="feat: Creacion del enrutador del Usuario" />
-    <MESSAGE value="feat: Creacion del serializador más hasheo de contraseñas incluido" />
-    <MESSAGE value="feat: Creacion del enrutador para los metodos del user" />
-    <MESSAGE value="feat: Creacion del Serializador para obtener y modificar datos del usuario" />
-    <MESSAGE value="feat: Agregacion del JWT tokens" />
-    <MESSAGE value="refactor: Creacion de los views mediante APIView" />
-    <MESSAGE value="feat: Creacion de archivos del IDE" />
-    <MESSAGE value="feat: Actualizacion de migraciones" />
-    <MESSAGE value="feat: Creacion de paquetes" />
-    <MESSAGE value="feat: Creacion del apartado admin para categorias" />
-    <MESSAGE value="feat: Creacion de app para categorias" />
-    <MESSAGE value="feat: Creacion del modelo de categoria" />
-    <MESSAGE value="feat: Creacion de permisos para controlar las categorias" />
-    <MESSAGE value="feat: Creacion de enrutador para la API REST de categorias" />
-    <MESSAGE value="feat: Serializador para la entrada de datos de Categoria" />
     <MESSAGE value="feat: Agregacion de las rutas de categoria en urls" />
     <MESSAGE value="feat: Creacion del CRUD de categorias mediante ModelViewSet" />
     <MESSAGE value="feat: Paquete del API de categorias" />
     <MESSAGE value="feat: Agregacion de la app categorias y django_filters" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregacion de la app categorias y django_filters" />
+    <MESSAGE value="feat: Creacion de paquetes" />
+    <MESSAGE value="feat: Actualizacion de migraciones" />
+    <MESSAGE value="feat: Creacion de permisos para el post" />
+    <MESSAGE value="refactor:" />
+    <MESSAGE value="refactor: Actualizacion de nombre de enrutador" />
+    <MESSAGE value="feat: Creacion de enrutador para posts" />
+    <MESSAGE value="feat: Creacion de serializador para posts" />
+    <MESSAGE value="feat: Instalacion de 'posts' en settings de django" />
+    <MESSAGE value="feat: Agregacion de rutas para el url de django de posts" />
+    <MESSAGE value="feat: Creacion de CRUD de posts con django_filter" />
+    <MESSAGE value="feat: Agregacion de Posts para la vista admin" />
+    <MESSAGE value="feat: Creacion de app para posts" />
+    <MESSAGE value="feat: Imagenes de parte de los posts" />
+    <MESSAGE value="feat: Creacion de modelo Post con llaves foraneas de user y category" />
+    <MESSAGE value="feat: Creacion de archivos de parte de la inicializacion del proyecto" />
+    <MESSAGE value="feat: Actualizacion del IDE" />
+    <MESSAGE value="refactor: Mejorar la leida de datos en el serializers.py" />
+    <MESSAGE value="refactor: Cambiar a SAFE METHOD para mejorar la entrada de la cabecera" />
+    <MESSAGE value="refactor: Mejorar la serializacion de leida y entrada, querset para vista de admin y user" />
+    <MESSAGE value="refactor: Actualizacion de modelos para mejor estabilidad del codigo" />
+    <MESSAGE value="refactor: Actualizacion de permisos del codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Actualizacion de permisos del codigo" />
   </component>
 </project>
