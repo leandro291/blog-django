@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="feat: Migraciones realizadas en la BD">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="feat: IDE">
+      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,47 +242,7 @@
       <workItem from="1784729690564" duration="20427000" />
       <workItem from="1784766486060" duration="611000" />
       <workItem from="1784767123085" duration="9296000" />
-      <workItem from="1784786073016" duration="1782000" />
-    </task>
-    <task id="LOCAL-00022" summary="feat: Creacion del apartado admin para categorias">
-      <option name="closed" value="true" />
-      <created>1784732928176</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732928176</updated>
-    </task>
-    <task id="LOCAL-00023" summary="feat: Creacion de app para categorias">
-      <option name="closed" value="true" />
-      <created>1784732938791</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732938791</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat: Creacion del modelo de categoria">
-      <option name="closed" value="true" />
-      <created>1784732950082</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732950082</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat: Creacion de permisos para controlar las categorias">
-      <option name="closed" value="true" />
-      <created>1784732963955</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732963955</updated>
-    </task>
-    <task id="LOCAL-00026" summary="feat: Creacion de enrutador para la API REST de categorias">
-      <option name="closed" value="true" />
-      <created>1784732982149</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732982149</updated>
+      <workItem from="1784786073016" duration="2163000" />
     </task>
     <task id="LOCAL-00027" summary="feat: Serializador para la entrada de datos de Categoria">
       <option name="closed" value="true" />
@@ -639,7 +596,47 @@
       <option name="project" value="LOCAL" />
       <updated>1784786855645</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="feat: Agregacion de carpeta requeriments">
+      <option name="closed" value="true" />
+      <created>1784788026064</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1784788026064</updated>
+    </task>
+    <task id="LOCAL-00072" summary="feat: Creacion de carpeta runtime para produccion">
+      <option name="closed" value="true" />
+      <created>1784788041240</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1784788041240</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat: Agregacion de activacion de los hosts">
+      <option name="closed" value="true" />
+      <created>1784788056353</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1784788056353</updated>
+    </task>
+    <task id="LOCAL-00074" summary="feat: Procfile para produccion">
+      <option name="closed" value="true" />
+      <created>1784788065380</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1784788065380</updated>
+    </task>
+    <task id="LOCAL-00075" summary="feat: IDE">
+      <option name="closed" value="true" />
+      <created>1784788094494</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1784788094494</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,11 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Actualizacion del IDE" />
-    <MESSAGE value="refactor: Mejorar la leida de datos en el serializers.py" />
-    <MESSAGE value="refactor: Cambiar a SAFE METHOD para mejorar la entrada de la cabecera" />
-    <MESSAGE value="refactor: Mejorar la serializacion de leida y entrada, querset para vista de admin y user" />
-    <MESSAGE value="refactor: Actualizacion de modelos para mejor estabilidad del codigo" />
     <MESSAGE value="refactor: Actualizacion de permisos del codigo" />
     <MESSAGE value="feat: Agregacion de url del apartado de comentario" />
     <MESSAGE value="refactor: Conversion al .env para seguridad del programa" />
@@ -682,6 +674,11 @@
     <MESSAGE value="feat: Creacion de paquetes para comments" />
     <MESSAGE value="feat: agregacion de archivos necesarios para el IDE" />
     <MESSAGE value="feat: Migraciones realizadas en la BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Migraciones realizadas en la BD" />
+    <MESSAGE value="feat: Agregacion de carpeta requeriments" />
+    <MESSAGE value="feat: Creacion de carpeta runtime para produccion" />
+    <MESSAGE value="feat: Agregacion de activacion de los hosts" />
+    <MESSAGE value="feat: Procfile para produccion" />
+    <MESSAGE value="feat: IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: IDE" />
   </component>
 </project>
