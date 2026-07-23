@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="refactor: Actualizacion de permisos del codigo">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/api/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/api/views.py" afterDir="false" />
+    <list default="true" id="fd19059a-d8cd-4ce4-9ec2-d5dbd21c4631" name="Changes" comment="feat: Migraciones realizadas en la BD">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,159 +245,7 @@
       <workItem from="1784729690564" duration="20427000" />
       <workItem from="1784766486060" duration="611000" />
       <workItem from="1784767123085" duration="9296000" />
-      <workItem from="1784786073016" duration="304000" />
-    </task>
-    <task id="LOCAL-00003" summary="feat: Agregacion de .gitignore">
-      <option name="closed" value="true" />
-      <created>1784514462526</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1784514462526</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: Creacion del modelo inicial del User">
-      <option name="closed" value="true" />
-      <created>1784515047362</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515047362</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: Cambiar el field del usuario para email">
-      <option name="closed" value="true" />
-      <created>1784515069607</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515069607</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: Cargando el .env para la base de datos postgres y activando el Auth user model">
-      <option name="closed" value="true" />
-      <created>1784515107284</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515107284</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat: Instalacion de la mejora del UI con Django Jazzmin">
-      <option name="closed" value="true" />
-      <created>1784515263406</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515263406</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat: Agregacion de 'rest_framwerok' para generar las APIS y 'drf_spectacular' para   la generacion de documentacion Swagger">
-      <option name="closed" value="true" />
-      <created>1784515811498</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515811498</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat: Creacion de las rutas para la documentacion de las APIS">
-      <option name="closed" value="true" />
-      <created>1784515830977</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1784515830977</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat: Eliminacion de vista para que este dentro de la carpeta de API">
-      <option name="closed" value="true" />
-      <created>1784518824016</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1784518824016</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat: Agregacion de rutas de la parte del user">
-      <option name="closed" value="true" />
-      <created>1784518969434</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1784518969434</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat: Creacion del paquete de API/users">
-      <option name="closed" value="true" />
-      <created>1784518987514</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1784518987514</updated>
-    </task>
-    <task id="LOCAL-00013" summary="feat: Creacion del enrutador del Usuario">
-      <option name="closed" value="true" />
-      <created>1784519017476</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1784519017476</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat: Creacion del serializador más hasheo de contraseñas incluido">
-      <option name="closed" value="true" />
-      <created>1784519043766</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1784519043766</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat: Creacion del enrutador para los metodos del user">
-      <option name="closed" value="true" />
-      <created>1784730276584</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1784730276584</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat: Creacion del Serializador para obtener y modificar datos del usuario">
-      <option name="closed" value="true" />
-      <created>1784730306902</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1784730306902</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat: Agregacion del JWT tokens">
-      <option name="closed" value="true" />
-      <created>1784730328557</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1784730328557</updated>
-    </task>
-    <task id="LOCAL-00018" summary="refactor: Creacion de los views mediante APIView">
-      <option name="closed" value="true" />
-      <created>1784730360117</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1784730360117</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat: Creacion de archivos del IDE">
-      <option name="closed" value="true" />
-      <created>1784732878438</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732878438</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat: Actualizacion de migraciones">
-      <option name="closed" value="true" />
-      <created>1784732894754</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732894754</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat: Creacion de paquetes">
-      <option name="closed" value="true" />
-      <created>1784732908874</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1784732908874</updated>
+      <workItem from="1784786073016" duration="1782000" />
     </task>
     <task id="LOCAL-00022" summary="feat: Creacion del apartado admin para categorias">
       <option name="closed" value="true" />
@@ -649,7 +487,159 @@
       <option name="project" value="LOCAL" />
       <updated>1784786353955</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="feat: Agregacion de url del apartado de comentario">
+      <option name="closed" value="true" />
+      <created>1784786445480</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786445480</updated>
+    </task>
+    <task id="LOCAL-00053" summary="refactor: Conversion al .env para seguridad del programa">
+      <option name="closed" value="true" />
+      <created>1784786478038</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786478038</updated>
+    </task>
+    <task id="LOCAL-00054" summary="refactor: Mejora de serializers.py para mejora del codigo">
+      <option name="closed" value="true" />
+      <created>1784786507122</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786507122</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: Creacion de serializers para comments">
+      <option name="closed" value="true" />
+      <created>1784786530328</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786530328</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat: Creacion de paquete para comments">
+      <option name="closed" value="true" />
+      <created>1784786640192</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786640192</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: Creacion de enrutador para comments">
+      <option name="closed" value="true" />
+      <created>1784786649913</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786649913</updated>
+    </task>
+    <task id="LOCAL-00058" summary="refactor: Actualizacion de serializer de categoria para separar responsabilidades">
+      <option name="closed" value="true" />
+      <created>1784786674664</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786674664</updated>
+    </task>
+    <task id="LOCAL-00059" summary="refactor: Actualizacion de views de categoria para separar utilidades">
+      <option name="closed" value="true" />
+      <created>1784786703826</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786703826</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: Agregacion de comment views">
+      <option name="closed" value="true" />
+      <created>1784786718074</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786718074</updated>
+    </task>
+    <task id="LOCAL-00061" summary="refactor: Borrado de views post">
+      <option name="closed" value="true" />
+      <created>1784786734135</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786734135</updated>
+    </task>
+    <task id="LOCAL-00062" summary="refactor: Actualizacion de view para que exista schema para el swagger">
+      <option name="closed" value="true" />
+      <created>1784786756306</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786756306</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: Actualizacion de datos para el IDE">
+      <option name="closed" value="true" />
+      <created>1784786773359</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786773359</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat: Agregado del modelo para comments">
+      <option name="closed" value="true" />
+      <created>1784786793599</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786793599</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: Agregado del test para comments">
+      <option name="closed" value="true" />
+      <created>1784786801620</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786801620</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat: Agregado del apps para comments">
+      <option name="closed" value="true" />
+      <created>1784786808623</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786808623</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: Agregado del admin para comments">
+      <option name="closed" value="true" />
+      <created>1784786815011</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786815011</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: Creacion de paquetes para comments">
+      <option name="closed" value="true" />
+      <created>1784786828497</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786828497</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat: agregacion de archivos necesarios para el IDE">
+      <option name="closed" value="true" />
+      <created>1784786846392</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786846392</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: Migraciones realizadas en la BD">
+      <option name="closed" value="true" />
+      <created>1784786855645</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1784786855645</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,31 +657,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Agregacion de las rutas de categoria en urls" />
-    <MESSAGE value="feat: Creacion del CRUD de categorias mediante ModelViewSet" />
-    <MESSAGE value="feat: Paquete del API de categorias" />
-    <MESSAGE value="feat: Agregacion de la app categorias y django_filters" />
-    <MESSAGE value="feat: Creacion de paquetes" />
-    <MESSAGE value="feat: Actualizacion de migraciones" />
-    <MESSAGE value="feat: Creacion de permisos para el post" />
-    <MESSAGE value="refactor:" />
-    <MESSAGE value="refactor: Actualizacion de nombre de enrutador" />
-    <MESSAGE value="feat: Creacion de enrutador para posts" />
-    <MESSAGE value="feat: Creacion de serializador para posts" />
-    <MESSAGE value="feat: Instalacion de 'posts' en settings de django" />
-    <MESSAGE value="feat: Agregacion de rutas para el url de django de posts" />
-    <MESSAGE value="feat: Creacion de CRUD de posts con django_filter" />
-    <MESSAGE value="feat: Agregacion de Posts para la vista admin" />
-    <MESSAGE value="feat: Creacion de app para posts" />
-    <MESSAGE value="feat: Imagenes de parte de los posts" />
-    <MESSAGE value="feat: Creacion de modelo Post con llaves foraneas de user y category" />
-    <MESSAGE value="feat: Creacion de archivos de parte de la inicializacion del proyecto" />
     <MESSAGE value="feat: Actualizacion del IDE" />
     <MESSAGE value="refactor: Mejorar la leida de datos en el serializers.py" />
     <MESSAGE value="refactor: Cambiar a SAFE METHOD para mejorar la entrada de la cabecera" />
     <MESSAGE value="refactor: Mejorar la serializacion de leida y entrada, querset para vista de admin y user" />
     <MESSAGE value="refactor: Actualizacion de modelos para mejor estabilidad del codigo" />
     <MESSAGE value="refactor: Actualizacion de permisos del codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Actualizacion de permisos del codigo" />
+    <MESSAGE value="feat: Agregacion de url del apartado de comentario" />
+    <MESSAGE value="refactor: Conversion al .env para seguridad del programa" />
+    <MESSAGE value="refactor: Mejora de serializers.py para mejora del codigo" />
+    <MESSAGE value="feat: Creacion de serializers para comments" />
+    <MESSAGE value="feat: Creacion de paquete para comments" />
+    <MESSAGE value="feat: Creacion de enrutador para comments" />
+    <MESSAGE value="refactor: Actualizacion de serializer de categoria para separar responsabilidades" />
+    <MESSAGE value="refactor: Actualizacion de views de categoria para separar utilidades" />
+    <MESSAGE value="feat: Agregacion de comment views" />
+    <MESSAGE value="refactor: Borrado de views post" />
+    <MESSAGE value="refactor: Actualizacion de view para que exista schema para el swagger" />
+    <MESSAGE value="feat: Actualizacion de datos para el IDE" />
+    <MESSAGE value="feat: Agregado del modelo para comments" />
+    <MESSAGE value="feat: Agregado del test para comments" />
+    <MESSAGE value="feat: Agregado del apps para comments" />
+    <MESSAGE value="feat: Agregado del admin para comments" />
+    <MESSAGE value="feat: Creacion de paquetes para comments" />
+    <MESSAGE value="feat: agregacion de archivos necesarios para el IDE" />
+    <MESSAGE value="feat: Migraciones realizadas en la BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Migraciones realizadas en la BD" />
   </component>
 </project>
