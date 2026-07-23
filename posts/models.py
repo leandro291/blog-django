@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models import SET_NULL
+from django.db.models import CASCADE, PROTECT
 from users.models import User
 from categories.models import Category
 
@@ -15,14 +15,12 @@ class Post(models.Model):
 
     user = models.ForeignKey(
         User,
-        on_delete=SET_NULL,
-        null=True
+        on_delete=CASCADE,
     )
 
     category = models.ForeignKey(
         Category,
-        on_delete=SET_NULL,
-        null=True
+        on_delete=PROTECT,
     )
 
     def __str__(self):
